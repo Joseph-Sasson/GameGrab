@@ -1,7 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import {useEffect, useState} from 'react'
 
 function App() {
+
+  const [games, setGames] =useState([])
+
+  useEffect(()=>{
+    fetch('http://localhost:3000/games')
+    .then(res=>res.json())
+    .then(setGames)
+  },[])
+
   return (
     <div className="App">
       <header className="App-header">
