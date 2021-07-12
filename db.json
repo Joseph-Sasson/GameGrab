@@ -1,0 +1,40 @@
+{
+  "games": [
+    {
+      "id": 51,
+      "name": "Solitaire",
+      "type": "Card Game",
+      "ages": "All",
+      "players": 1,
+      "runtime": 20,
+      "rules": "https://youtu.be/eTG6EgEv1Ag" 
+    },
+    {
+      "id": 52,
+      "name": "FreeCell",
+      "type": "Card Game",
+      "ages": "All",
+      "players": 1,
+      "runtime": 30,
+      "rules": "https://youtu.be/vZWvggL7IuU"   
+    },
+    {
+      "id": 53,
+      "name": "Baker's Dozen",
+      "type": "Card Game",
+      "ages": "All",
+      "players": 1,
+      "runtime": 30,
+      "rules": "https://youtu.be/sRf1k1SBf4A"   
+    },
+    {
+      "id": 54,
+      "name": "",
+      "type": "Card Game",
+      "ages": "All",
+      "players": ,
+      "runtime": ,
+      "rules": ""   
+    }
+  ]
+}
