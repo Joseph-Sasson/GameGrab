@@ -1,10 +1,23 @@
 import GameItem from './GameItem'
+import React from 'react'
+import GameFilter from './GameFilter'
 
-function GameContainer (){
+function GameContainer ({games}){
   return(
     <div>
-      GameContainer
-      <GameItem />
+      
+        Game Filter
+        <GameFilter />
+      
+      <div>
+        Collection of All Games 
+        {
+        games.map(game => (
+          <GameItem game={game}/>
+        ))}
+        
+        
+      </div>
     </div>
   )
 }

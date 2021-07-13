@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Header />
       <GameWheel />
-      <GameContainer />
+      <GameContainer games={games}/>
     </div>
   );
 }
