@@ -58,7 +58,7 @@ div.desc {
   padding: 15px;
   text-align: center;
 } */ 
-.header {
+.head {
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -91,11 +91,11 @@ ul {
   background-color: darkgreen;
 }
 
-.title:hover {
+.header:hover {
   background-color: darkgreen;
 }
 
-.title {
+.header {
   font-weight: bolder;
   font-size: 300%;
   color: white;
