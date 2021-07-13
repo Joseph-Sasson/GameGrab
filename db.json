@@ -13,7 +13,7 @@
     },{
       "id": 2,
       "name": "the-sneaky-snacky-squirrel-card-game",
-      "type": "Board",
+      "type": "Board Game",
       "ages": "All",
       "min players": 3,
       "max players": 6, 
@@ -184,7 +184,7 @@
       "id": 19,
       "name": "Cards Against Humanity",
       "type": "Card Game",
-      "ages": "17+",
+      "ages": "Adult",
       "min players": 4,
       "max players": 30, 
       "runtime": 30,

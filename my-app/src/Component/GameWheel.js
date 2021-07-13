@@ -1,7 +1,9 @@
+import Carousel from "./Carousel"
+
 function GameWheel (){
   return(
     <div>
-      GameWheel
+      <Carousel />
     </div>
   )
 }
