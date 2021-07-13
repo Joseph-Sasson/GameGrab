@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react'
 // import {Route, Switch} from 'react-router-dom'
 import Header from './Component/Header';
 import GameContainer from './Component/GameContainer'
+import GameWheel from './Component/GameWheel'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <GameWheel />
       <GameContainer />
     </div>
   );
