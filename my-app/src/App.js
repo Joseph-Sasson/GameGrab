@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
 import React, {useEffect, useState} from 'react'
 import {Route, Switch} from 'react-router-dom'
 import Header from './Component/Header';
@@ -19,7 +19,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <GameWheel />
+      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <GameWheel games={games}/>
+      </div>
       <GameContainer games={games}/>
     </div>
   );

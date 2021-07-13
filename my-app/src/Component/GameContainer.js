@@ -9,7 +9,7 @@ function GameContainer ({games}){
         Collection of All Games 
         {
         games.map(game => (
-          <GameItem game={game}/>
+          <GameItem key={game.id} game={game}/>
         ))}
     </div>
   )

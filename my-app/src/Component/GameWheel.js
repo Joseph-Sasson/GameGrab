@@ -1,9 +1,15 @@
 import Carousel from "./Carousel"
+import GameItem from "./GameItem"
 
-function GameWheel (){
+function GameWheel ({games}){
+
   return(
     <div>
-      <Carousel />
+      <Carousel show={5} infiniteLoop={true}>
+          {games.map(game => (
+            <GameItem key={game.id} game={game}/>
+          ))}
+      </Carousel>
     </div>
   )
 }
