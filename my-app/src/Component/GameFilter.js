@@ -1,11 +1,37 @@
 import React from "react"
+import {useState, useEffect} from 'react'
 
-function GameFilter(){
+function GameFilter({filterGames,games}){
+    const [form, setForm] = useState({
+        age: 'All',
+        player: '1',
+        type: 'All',
+        time: 'Short'
+    })
+
+    const newFilteredGames =()=>{
+        return [...games].filter(game=>{
+        if (form.age === game.ages && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime){
+            return game
+        }
+    })}
+
+    function handleChange(e){
+        const name = e.target.name
+        const value = e.target.value
+        setForm({...form, [name]:value})
+    }
+
+    function handleFilter(e){
+        e.preventDefault()
+        filterGames(newFilteredGames())
+    }
+
     return (
         <div className="filter">
-            <form>
+            <form onSubmit={(e)=>handleFilter(e)}>
                 <label>Ages:
-                    <select>
+                    <select name='age' value={form.age} onChange={handleChange}>
                         <option value='All'>All</option>
                         <option value='7+'>7+</option>
                         <option value='8+'>8+</option>
@@ -19,7 +45,7 @@ function GameFilter(){
                     </select>
                 </label>
                 <label>Players:
-                    <select>
+                    <select name='player' value={form.player} onChange={handleChange}>
                     <option value='1'>1</option>
                     <option value='2'>2</option>
                     <option value='3'>3</option>
@@ -33,14 +59,14 @@ function GameFilter(){
                     </select>
                 </label>
                 <label>Game Type:
-                    <select>
+                    <select name='type' value={form.type} onChange={handleChange}>
                         <option value='All'>All</option>
                         <option value='Board Game'>Board Game</option>
                         <option value='Card Game'>Card Game</option>
                     </select>
                 </label>
                 <label>Play Time:
-                    <select>
+                    <select name='time' value={form.time} onChange={handleChange}>
                     <option value='Short'>Short (Under 30 Min)</option>
                     <option value='Medium'>Medium (30-60 Min)</option>
                     <option value='Long'>Long (60+ Min)</option>

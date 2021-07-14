@@ -3,10 +3,10 @@ import React from 'react'
 function GameItem ({game}){
 
   return(
-  <div class="row" className="game rows">
+  <div className="row" className="game rows">
 
     <div key={game.id}>
-    <div class="column">
+    <div className="column">
     <div className="image">
         <img alt="Don't play the blame game" src={game.image} />
     <div/>

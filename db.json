@@ -7,7 +7,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 2, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=LQVE7ynwKlE",
       "image": "https://th.bing.com/th/id/OIP.F0P1Ypjpgz6i1JXyKwP56AHaEe?w=308&h=186&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -17,27 +17,27 @@
       "ages": "All",
       "min players": 3,
       "max players": 6, 
-      "runtime": 5,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=5LPzKdGK9Lw",
       "image": "https://th.bing.com/th/id/OIP.GpADPVIK3o1DbhR1IZUSPwHaHa?w=178&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
       "id": 3,
-      "name": "Tempus",
+      "name": "The Battle of Five Armies",
       "type": "Board Game",
-      "ages": "All",
-      "min players": 3,
-      "max players": 5, 
-      "runtime": 60,
-      "rules": "",
-      "image": "https://cdn.shopify.com/s/files/1/2474/3160/products/Tempus_result.jpg?v=1611774864"
-    },{
+      "ages": "10+",
+      "min players": 2,
+      "max players": 2, 
+      "runtime": "Long",
+      "rules": "https://www.youtube.com/watch?v=zZKUoTiVnnU",
+      "image": "https://cf.geekdo-images.com/SQBx844N1Ay31pm368Ckkg__original/img/zu-ZhjwIQGzO7uK8Czt0xy4Ud-Y=/0x0/filters:format(jpeg)/pic1886964.jpg"
+      },{
       "id": 4,
       "name": "Dabong",
       "type": "Card Game",
       "ages": "7+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=xb8AQ6k2EV4",
       "image": "https://th.bing.com/th/id/OIP.z3N7Ig56i2i52zNa4lfuxwHaFa?w=259&h=187&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -47,7 +47,7 @@
       "ages": "14+",
       "min players": 1,
       "max players": 4, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://https://www.youtube.com/watch?v=Q1XZzRjx32E.be/eTG6EgEv1Ag",
       "image": "https://th.bing.com/th/id/OIP.Miq6W3VtZ7ckogcsj_GUVAHaEW?w=311&h=187&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -57,7 +57,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 2,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=IFRewjcngwU",
       "image": "https://cf.geekdo-images.com/FZdihu8SibqQYtwfo77BdQ__original/img/yFapOVnIIRUqTd98xHpf85YHGbk=/0x0/filters:format(jpeg)/pic5032361.jpg"
     },{
@@ -67,7 +67,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "",
       "image": "https://th.bing.com/th/id/OIP.E2gcb3WLX_d3911LPfBCRwHaGq?w=234&h=211&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -77,7 +77,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 4,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=jByL1FyitwA",
       "image": "https://th.bing.com/th/id/OIP.-UutltJ3KJOXlT_Zd05SyQHaEn?w=259&h=180&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -87,7 +87,7 @@
       "ages": "11+",
       "min players": 1,
       "max players": 6, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=ZVD0vlqWF7s",
       "image": "https://th.bing.com/th/id/OIP.mTj6Mzxt34uZXyzknRKMvgHaE9?w=236&h=180&c=7&o=5&dpr=2&pid=1.7"
     },{
@@ -97,7 +97,7 @@
       "ages": "13+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=yZoR_UrhOuw",
       "image": "https://th.bing.com/th/id/OIP.02SFcw5vr8BQqBBHMxkd7AHaEK?w=278&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -107,7 +107,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 4, 
-      "runtime": 50,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=tePeV10twKM",
       "image": "https://th.bing.com/th/id/OIP.DJYOaiCkmv7ofWDVl3QqoAAAAA?w=163&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -117,7 +117,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 7, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=XnBLz61FJYw",
       "image": "https://th.bing.com/th/id/OIP.ASVaRavh9uqYOdJ9rVwJgQHaHX?w=161&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -127,7 +127,7 @@
       "ages": "13+",
       "min players": 2,
       "max players": 4,
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=6wNaS1HxA-Q",
       "image": "https://th.bing.com/th/id/OIP.L6GyycSgUlcCITToV9VuLAHaHY?w=173&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -137,7 +137,7 @@
       "ages": "14+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=wuxV3-s8-J4",
       "image": "https://th.bing.com/th/id/OIP.fK9iPZe4zAe6jzzjTR6RPAHaEq?w=284&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -147,7 +147,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=yqx3xsj8SXo",
       "image": "https://th.bing.com/th/id/OIP.H3uuZUTRnTKtbQWvooCZ0AHaHS?w=163&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -157,7 +157,7 @@
       "ages": "14+",
       "min players": 1,
       "max players": 4, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=x8swP1wOuJQ",
       "image": "https://cf.geekdo-images.com/2uLIi4KRQFQXZh6yFlnyJg__thumb/img/vuL2c3gqmF0rZ3tazdsnRw04TKc=/fit-in/200x150/filters:strip_icc()/pic1238469.jpg" 
     },{
@@ -167,7 +167,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 100,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=ES8NpXHLVWE",
       "image": "https://cf.geekdo-images.com/K7Hq_KDgr8jJHMtW21XcfQ__thumb/img/ZddcJnCbwkBUoilb5x-Bj-k7tio=/fit-in/200x150/filters:strip_icc()/pic2197124.jpg" 
     },{
@@ -177,7 +177,7 @@
       "ages": "14+",
       "min players": 3,
       "max players": 4, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=bARQjN4Vx9E",
       "image": "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__thumb/img/t6JsS2kb5qfi0CVFe5o08WGlQ2M=/fit-in/200x150/filters:strip_icc()/pic1987366.jpg" 
     },{
@@ -187,7 +187,7 @@
       "ages": "Adult",
       "min players": 4,
       "max players": 30, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=9eRjn4Ken0c",
       "image": "https://cf.geekdo-images.com/nYLrPiI9gnvlrwOrKQ4_CA__original/img/EgMpdhoG38LUTApk0kyFFsmoQPk=/0x0/filters:format(jpeg)/pic2909692.jpg" 
     },{
@@ -197,7 +197,7 @@
       "ages": "14+",
       "min players": 2,
       "max players": 2, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=un-KlL7RJS4",
       "image": "https://cf.geekdo-images.com/Yim5NN5RexitX1ZaAsrKSg__original/img/vTRod_K2284wZIUN4Xcc9P7g1R0=/0x0/filters:format(jpeg)/pic1063921.jpg" 
     },{
@@ -207,7 +207,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=9qGeW0yzXvg",
       "image": "https://th.bing.com/th/id/OIP.fK9iPZe4zAe6jzzjTR6RPAHaEq?w=284&h=180&c=7&o=5&dpr=2&pid=1.7" 
     },{
@@ -217,7 +217,7 @@
       "ages": "13+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 75,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=z-YvYuKvMJc",
       "image": "https://cf.geekdo-images.com/NHS09_--HRvuAfnIgbQl8g__original/img/4hcz6x4vSX4x6XMI6XAgwpeNIBY=/0x0/filters:format(jpeg)/pic2545662.jpg" 
     },{
@@ -227,7 +227,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=_9TeMq1DXLE",
       "image": "https://cf.geekdo-images.com/34yL6P-9ZCdugwXCdDd1qQ__original/img/hLS7ABJrsyiCiQjRxK85Lj1D-hU=/0x0/filters:format(jpeg)/pic1828893.jpg" 
     },{
@@ -237,7 +237,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=-7MpK_VZeo4",
       "image": "https://cf.geekdo-images.com/GO282hlXR3RiknU5W4GZjg__original/img/TCTXvYRQGWMAngXuHZcIXRknfpc=/0x0/filters:format(png)/pic5373572.png" 
     },{
@@ -247,7 +247,7 @@
       "ages": "12+",
       "min players": 1,
       "max players": 4, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=2nIIWvlkBqE",
       "image": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__original/img/N1X-0JB1GapFVhl98nP4tNFXMcM=/0x0/filters:format(png)/pic3146943.png" 
     },{
@@ -257,7 +257,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=G3spCqq4go4",
       "image": "https://cf.geekdo-images.com/DCVRR-zA7Jy9wjuZudTZ8w__original/img/dF1pDf3JLgqAdzD9uhy14Pd3yx8=/0x0/filters:format(jpeg)/pic714398.jpg" 
     },{
@@ -267,7 +267,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 25,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=d_js_3S_7K8",
       "image": "https://cf.geekdo-images.com/JDVksMwfcqoem1k_xtZrOA__original/img/5vNHZiTEhK4aRDuGXv5KImp9cmQ=/0x0/filters:format(jpeg)/pic2007286.jpg" 
     },{
@@ -277,7 +277,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=Kfth1rburXk",
       "image": "https://cf.geekdo-images.com/YBE-vyyYRANWO2NXSQQghg__original/img/-Ec777H5hg1pmx6kQ0PI2A9Iroc=/0x0/filters:format(png)/pic2966859.png" 
     },{
@@ -287,7 +287,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=g9X2x-OENB0",
       "image": "https://cf.geekdo-images.com/kJOP_BICVX-88sKqFRh9PQ__original/img/2m6YJhA3JbYe1cNhybRtFJrRECw=/0x0/filters:format(jpeg)/pic1152359.jpg" 
     },{
@@ -297,7 +297,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=yPP4BhtW2fM",
       "image": "https://cf.geekdo-images.com/-hk8f8iGk_DyWyMrfiPBkg__original/img/GWNOhno3y7g0XE00VacKaRxoczk=/0x0/filters:format(jpeg)/pic1116080.jpg" 
     },{
@@ -307,7 +307,7 @@
       "ages": "13+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=3DpHb8bUa_o",
       "image": "https://cf.geekdo-images.com/IFtZcDUsLDHpHpslQ-8Q8Q__original/img/1vLNKGGdXaI9yv4ENFud0oznh_s=/0x0/filters:format(jpeg)/pic1222522.jpg" 
     },{
@@ -317,7 +317,7 @@
       "ages": "7+",
       "min players": 1,
       "max players": 4, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=K3ytmBjB6bY",
       "image": "https://cf.geekdo-images.com/pZFrbWXBzrkxqOotg05D9Q__original/img/2cwA1euTZ-Lm7hMBEJTBkrRl1dQ=/0x0/filters:format(jpeg)/pic1312072.jpg" 
     },{
@@ -327,7 +327,7 @@
       "ages": "14+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=zFfSww_AdMg",
       "image": "https://cf.geekdo-images.com/2cf8lebaIrJ8Z62HGEs2wQ__original/img/tgXds1PLtf7gcZsH4bsL34uT8Rk=/0x0/filters:format(png)/pic3287905.png" 
     },{
@@ -337,7 +337,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=HlI3vOoZHmM",
       "image": "https://cf.geekdo-images.com/nagl1li6kYt9elV9jbfVQw__original/img/Qn6vlBaTUaHNFsqohIUjd0EA4z0=/0x0/filters:format(jpeg)/pic6228507.jpg" 
     },{
@@ -347,7 +347,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 2, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=ImRhciw-UEI",
       "image": "https://cf.geekdo-images.com/wLW7pFn0--20lEizEz5p3A__original/img/B1j7R-slq8wxgC71Sg1F7S1s7Kg=/0x0/filters:format(jpeg)/pic2270442.jpg" 
     },{
@@ -357,7 +357,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 6, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=2eEOA2dJPQI",
       "image": "https://cf.geekdo-images.com/yd6LuatytHRhcFCxCf-EEg__original/img/OS13C6W4i1XW__wWVVVaqF7BV0c=/0x0/filters:format(jpeg)/pic4459753.jpg" 
     },{
@@ -367,7 +367,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=YoZSPFMHaIY",
       "image": "https://cf.geekdo-images.com/-DOqixs8uwKUvvWPKI4f9w__original/img/Vh-DCkTPa8OU45LaJdUywwhiYqE=/0x0/filters:format(jpeg)/pic5261714.jpg" 
     },{
@@ -377,7 +377,7 @@
       "ages": "13+",
       "min players": 5,
       "max players": 10, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=DUENzjE9Jwg",
       "image": "https://cf.geekdo-images.com/cAPTkL2BR3snLO71dkH8rw__original/img/_UahoIUTqh39xRqzCc2jwgdYbSA=/0x0/filters:format(jpeg)/pic2576459.jpg"
     },{
@@ -387,7 +387,7 @@
       "ages": "14+",
       "min players": 1,
       "max players": 4, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=1b__PzNtWxI",
       "image": "https://cf.geekdo-images.com/FbFnaTx3aT5dM18K_bR_Pg__original/img/TB2dGHOnuUr54jQYIJZDIMilOJE=/0x0/filters:format(jpeg)/pic3165731.jpg" 
     },{
@@ -397,7 +397,7 @@
       "ages": "8+",
       "min players": 3,
       "max players": 10, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=FNTesrTLh4I",
       "image": "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__original/img/TJDCd-PYySXmhQn-LC-y88JPA7U=/0x0/filters:format(jpeg)/pic3989824.jpg" 
     },{
@@ -407,7 +407,7 @@
       "ages": "14+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=RVEY-dxcSU0",
       "image": "https://cf.geekdo-images.com/awmZ9rYy-hTgea6Vdp_OoQ__original/img/bQ_yFa_JI_B8y3N4nfXcXYU_tE0=/0x0/filters:format(jpeg)/pic1299390.jpg" 
     },{
@@ -417,7 +417,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=GeIwMga5aRw",
       "image": "https://cf.geekdo-images.com/kiD03bslLpN_0Qe1LJ8OGg__original/img/rFYh1En1BFLZ3n0Do-BwOnn7efU=/0x0/filters:format(jpeg)/pic174174.jpg" 
     },{
@@ -427,7 +427,7 @@
       "ages": "10+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 60,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=Sd-uA_AlLck",
       "image": "https://cf.geekdo-images.com/-narZPLY3ffctYJlxZOTuQ__original/img/A1GaBL7x2tQ1REaFeHzND5hluUI=/0x0/filters:format(png)/pic2574022.png" 
     },{
@@ -437,7 +437,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 2, 
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=_KUO7jRICX0",
       "image": "https://cf.geekdo-images.com/EsJqPL5CB_TMt0MYL-lnVg__original/img/QXgamCDRuBoRJyU1PQjeh58Pvr8=/0x0/filters:format(jpeg)/pic1903816.jpg"
     },{
@@ -447,7 +447,7 @@
       "ages": "14+",
       "min players": 2,
       "max players": 8, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=FIYcKIFsNK8",
       "image": "https://cf.geekdo-images.com/x7ZIq-jb6z10UJiv_8wsyg__original/img/s3KmeeFsWo3DzkaVzfORXEHfGWM=/0x0/filters:format(jpeg)/pic2073821.jpg"
     },{
@@ -457,7 +457,7 @@
       "ages": "9+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=LT4054SBojw",
       "image": "https://cf.geekdo-images.com/tMbeTW1gPc6ueamut0pGNQ__original/img/6Zn32u17ursDAkFVsBD_9lJ9s9c=/0x0/filters:format(jpeg)/pic2045253.jpg" 
     },{
@@ -467,7 +467,7 @@
       "ages": "12+",
       "min players": 2,
       "max players": 4, 
-      "runtime": 90,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=n4emRzn7P3w",
       "image": "https://cf.geekdo-images.com/XmwCsjQ3C1Ul53ZN2o8Q-Q__original/img/sUuboe9L4_nrIokyjAE74uklCjE=/0x0/filters:format(png)/pic2617634.png",
       "thumbnail": "https://cf.geekdo-images.com/XmwCsjQ3C1Ul53ZN2o8Q-Q__thumb/img/tTU1YVtab-cN5gCdagINowvVA2g=/fit-in/200x150/filters:strip_icc()/pic2617634.png" 
@@ -478,7 +478,7 @@
       "ages": "12+",
       "min players": 1,
       "max players": 5, 
-      "runtime": 120,
+      "runtime": "Long",
       "rules": "https://www.youtube.com/watch?v=n3yVpsiVwL8",
       "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg" 
     },{
@@ -488,7 +488,7 @@
       "ages": "8+",
       "min players": 2,
       "max players": 5, 
-      "runtime": 45,
+      "runtime": "Medium",
       "rules": "https://www.youtube.com/watch?v=JHfCSXmWb9w",
       "image": "https://cf.geekdo-images.com/W7oc-HFr5phA8-IeP9xXVg__original/img/CP1gsN3dMTcuakYbB8q0mgV45lk=/0x0/filters:format(png)/pic1717784.png" 
     },{
@@ -498,7 +498,7 @@
       "ages": "10+",
       "min players": 3,
       "max players": 7, 
-      "runtime": 25,
+      "runtime": "Short",
       "rules": "https://www.youtube.com/watch?v=x9M_vEaj3qM",
       "image": "https://cf.geekdo-images.com/TxojLHTFHfBOBAk9MQSyLg__original/img/DcG4rhSBw8oT9drbvbuxybUOkik=/0x0/filters:format(jpeg)/pic2558555.jpg" 
     },{
@@ -508,7 +508,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/eTG6EgEv1Ag",
       "image": "https://solitaired.com/images/favicons/card-tableau.png"
     },{
@@ -518,7 +518,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/vZWvggL7IuU",
       "image": "https://www.free-freecell-solitaire.com/solitaire/images/solitaire_preview/large/bakers_game@2x.jpg"
     },{
@@ -528,7 +528,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/sRf1k1SBf4A",
       "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/a0/c7/b9/a0c7b983-a604-73ed-63c1-6c5b433c8273/source/256x256bb.jpg"
     },{
@@ -538,7 +538,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/wqrqlCyAHP4",
       "image": "https://www.solitaire.com/uploaded/screenshot/gin-rummy-classic.jpg"
     },{
@@ -548,7 +548,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 5,
-      "runtime": 5,
+      "runtime": "Short",
       "rules": "https://youtu.be/-2z9xZYWqmo",
       "image": "https://cdn.shopify.com/s/files/1/0522/9979/2582/products/PCBIG2---Color-Go-Fish-Playing-Cards-_2ED.jpg?v=1623556181"
     },{
@@ -558,7 +558,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/RSr_89K_65c",
       "image": "https://www.solitaireparadise.com/static/game-images/hearts-350x300.png"
     },{
@@ -568,7 +568,7 @@
       "ages": "All",
       "min players": 3,
       "max players": 6,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/lZHLtWfOmLo",
       "image": "https://images-na.ssl-images-amazon.com/images/I/61V-DFOOX%2BL._AC_SL1000_.jpg"
     },{
@@ -578,7 +578,7 @@
       "ages": "All",
       "min players": 5,
       "max players": null,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/Wx7kz5LpAz4",
       "image": "https://content.instructables.com/ORIG/F2I/D53B/IFZOO44O/F2ID53BIFZOO44O.jpg?auto=webp&fit=bounds&frame=1&auto=webp&frame=1&height=300"
     },{
@@ -588,7 +588,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 12,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/2k1pHpGPMdc",
       "image": "https://images-na.ssl-images-amazon.com/images/I/51BlJt1q-ZL._AC_.jpg"
     },{
@@ -598,7 +598,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 6,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/nQHwHCHlokI",
       "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,g=0.5x0.5,f=auto/44651da0c902998fd3bc36247f4cf1ff.png"
     },{
@@ -608,7 +608,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 4,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/Qc7aQfGU58w",
       "image": "https://gameonfamily.com/wp-content/uploads/2017/12/Slapjack-773x1030.jpg"
     },{
@@ -618,7 +618,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/HmxpLGjZ5sQ",
       "image": "https://images-na.ssl-images-amazon.com/images/I/71x-PIxtmpL.png"
     },{
@@ -628,7 +628,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 4,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/iDQjn3k76Mw",
       "image": "https://cardgames.io/crazyeights/images/crazyeights-logo.png"
     },{
@@ -638,7 +638,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/yv7k6XYzgSo",
       "image": "http://allaboutfunandgames.com/wp-content/uploads/2011/12/Spit-Card-Game-Lay-out.jpg"
     },{
@@ -648,7 +648,7 @@
       "ages": "Adult",
       "min players": 2,
       "max players": 10,
-      "runtime": 25,
+      "runtime": "Short",
       "rules": "https://youtu.be/fPNsgpM3N9g",
       "image": "https://media.istockphoto.com/vectors/texas-holdem-poker-vector-id166010033?k=6&m=166010033&s=612x612&w=0&h=Yi8H8nfM5AYQvOsD9dwFolSYPFE52rbgJNImv7j50Mg="
     },{
@@ -658,7 +658,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 10,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/jxKtz0s_lBc",
       "image": "https://images-na.ssl-images-amazon.com/images/I/812Yr9WChrL._AC_SL1500_.jpg"
     },{
@@ -668,7 +668,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/yX-jOVer758",
       "image": "https://play-lh.googleusercontent.com/HECjT8S57Pqd-obM2uyU0m3iRc0kpETPmsi4YhOBpMwhYBPUkiYQp4sC1F4k8YdJROY"
     },{
@@ -678,7 +678,7 @@
       "ages": "Adult",
       "min players": 2,
       "max players": 8,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/VB-6MvXvsKo",
       "image": "https://blackwell-science.com/wp-content/uploads/2021/06/blackjack.jpg"
     },{
@@ -688,7 +688,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/2IomnCvxWzM",
       "image": "https://i.pinimg.com/originals/ed/82/5d/ed825dc3765467c69b1f8affd4d2df92.jpg"
     },{
@@ -698,7 +698,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 4,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/QYEMpDoN0Mw",
       "image": "http://cdn.shopify.com/s/files/1/1788/4029/articles/download_6_1024x1024.jpg?v=1566120443"
     },{
@@ -708,7 +708,7 @@
       "ages": "Adult",
       "min players": 5,
       "max players": null,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/My-UdpiXZhE",
       "image": "https://m.media-amazon.com/images/I/51Peada+NrL.jpg"
     },{
@@ -718,7 +718,7 @@
       "ages": "All",
       "min players": 3,
       "max players": 3,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/pbG7VcHAoks",
       "image": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3b/49/0e/3b490eb1-406b-9466-6c33-106792f3e2b3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png"
     },{
@@ -728,7 +728,7 @@
       "ages": "Adult",
       "min players": 2,
       "max players": 6,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/bOyZbYjUcZg",
       "image": "https://static.guides.co/g/1063/5card-draw-deal.jpg"
     },{
@@ -738,7 +738,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/Eaa7KrIc4ys",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Backgammon_lg.png"
     },{
@@ -748,7 +748,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 5,
+      "runtime": "Short",
       "rules": "https://youtu.be/ScKIdStgAfU",
       "image": "https://images-na.ssl-images-amazon.com/images/I/81qe4VEfaFS._AC_SL1500_.jpg"
     },{
@@ -758,7 +758,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/O-fSSdo6es4",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Starting_position_in_a_chess_game.jpg/1200px-Starting_position_in_a_chess_game.jpg"
     },{
@@ -768,7 +768,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 6,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/Vq00jSkm96I",
       "image": "https://cdn.shopify.com/s/files/1/1788/4029/files/Screenshot_2019-09-28_at_11.32.43_large.png?v=1569667113"
     },{
@@ -778,7 +778,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 5,
+      "runtime": "Short",
       "rules": "https://youtu.be/2T0jeY-BxU4",
       "image": "https://m.media-amazon.com/images/I/61Fiy4HUA5L._AC_.jpg"
     },{
@@ -788,7 +788,7 @@
       "ages": "All",
       "min players": 2,
       "max players": null,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/492bM_dhdR4",
       "image": "https://i.ytimg.com/vi/AvwTszkuw4s/hqdefault.jpg"
     },{
@@ -798,7 +798,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 6,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/iw8Du4ksiBc",
       "image": "https://images-na.ssl-images-amazon.com/images/I/A1vExeya8JL._AC_SL1500_.jpg"
     },{
@@ -808,7 +808,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/dnRlETGqHec",
       "image": "https://cardgames.io/pyramidsolitaire/images/pyramidsolitaire-logo.png"
     },{
@@ -818,7 +818,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/ncpLBrzh45Y",
       "image": "https://cardgames.io/tripeakssolitaire/images/tripeakssolitaire-logo.png"
     },{
@@ -828,7 +828,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/jk1SYPCCFn4",
       "image": "https://cardgames.app/speed/Images/1000x567.png"
     },{
@@ -838,7 +838,7 @@
       "ages": "Adult",
       "min players": 2,
       "max players": 8,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/omc8et-AgJ0",
       "image": "https://www.mypokercoaching.com/wp-content/uploads/2020/07/7-card-stud.jpg"
     },{
@@ -848,7 +848,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 5,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/LVFIpjNQ7R4",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbMnPubyntCw7I2xzYpNg8GdQ_kGGezkeQQ&usqp=CAU"
     },{
@@ -858,7 +858,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 6,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/dwDRqF3T0II",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Euchre.jpg"
     },{
@@ -868,7 +868,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/GzIFmhSDNkw",
       "image": "https://images.squarespace-cdn.com/content/v1/5dc57300f66de96b7f66f3a9/1576621054531-D8KSYLEYPB847GQVGVRR/Army+Ants+Setup1.JPG"
     },{
@@ -878,7 +878,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 10,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/-4xkOwXvElA",
       "image": "https://www.wikihow.com/images/f/f1/Play-Card-Bingo-Step-4.jpg"
     },{
@@ -888,7 +888,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 6,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/PM-VuNLYI0s",
       "image": "https://images-na.ssl-images-amazon.com/images/I/91j30SaYErL._AC_SL1500_.jpg"
     },{
@@ -898,7 +898,7 @@
       "ages": "All",
       "min players": 1,
       "max players": 1,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/Ljvoifm3Ijg",
       "image": "https://lh3.googleusercontent.com/proxy/i-lBgoA7UJh3gDtFFP5fiSDxUR1E1Q2wJgewlvju_ZW1vOOUYDSbUvbTme2svebL5dbUHPVOvzvkRygEmKv8ky7Qs8hi0_cU1XD4ecv8ul6b8_Ok6rN4ulq8hbPPYIQNNZBY"
     },{
@@ -908,7 +908,7 @@
       "ages": "All",
       "min players": 3,
       "max players": 3,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/HOWevyidlXk",
       "image": "http://static1.squarespace.com/static/5dc57300f66de96b7f66f3a9/t/5dc72ba480e6ab4d111287fa/1573251802346/Card+Pic3.jpg?format=1500w"
     },{
@@ -918,7 +918,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 2,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/xVK8R9cGjoY",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Royal_flush.jpg"
     },{
@@ -928,7 +928,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 7,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/NmKOzmNs2Ms",
       "image": "https://www.whatdowedoallday.com/wp-content/uploads/2020/10/go-boom-featuer-680x680.jpg"
     },{
@@ -938,7 +938,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 4,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/GZbsEtXWK50",
       "image": "https://www.whatdowedoallday.com/wp-content/uploads/2019/01/golf-pin-orange-680-400x583.jpg"
     },{
@@ -948,7 +948,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 30,
+      "runtime": "Medium",
       "rules": "https://youtu.be/owuxotiNjI4",
       "image": "https://cf.geekdo-images.com/8z-9UPlWhFBquV5tsRi2AA__itemrep/img/nQBsTzRX6QId6X3P15Btmbt4bVA=/fit-in/246x300/filters:strip_icc()/pic461778.jpg"
     },{
@@ -958,7 +958,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 20,
+      "runtime": "Short",
       "rules": "https://youtu.be/b-4NmUKC4dk",
       "image": "https://cdn.shopify.com/s/files/1/2045/3969/products/gongshow_cardgame_mix_c5f70974-5017-409f-8fd4-94505ff9fd34_750x.jpg?v=1548356729"
     },{
@@ -968,7 +968,7 @@
       "ages": "All",
       "min players": 2,
       "max players": 4,
-      "runtime": 10,
+      "runtime": "Short",
       "rules": "https://youtu.be/J-enuwqEnNc",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/James_Bond_card_game.png"
     },{
@@ -978,7 +978,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/FHuIcGzNgYg",
       "image": "https://cf.geekdo-images.com/TtXufrECpnEvoCFlJCrjtg__opengraph/img/EQHyUK9AMTMZkv2dQAKY1xctrKw=/fit-in/1200x630/filters:strip_icc()/pic44279.jpg"
     },{
@@ -988,7 +988,7 @@
       "ages": "All",
       "min players": 4,
       "max players": 4,
-      "runtime": 25,
+      "runtime": "Short",
       "rules": "https://youtu.be/MLOS84a6FtQ",
       "image": "https://cardgames.io/euchre/images/euchre-logo.png"
     },{
@@ -998,7 +998,7 @@
       "ages": "Adult",
       "min players": 3,
       "max players": 8,
-      "runtime": 15,
+      "runtime": "Short",
       "rules": "https://youtu.be/HpeRTWNBH28",
       "image": "https://play-lh.googleusercontent.com/X0e9cqIBDEt-MROebWXDhkC5Gb9HcwvWXIVEIgrsYei2fh3IerPZ8ASy8Uu7D_Hc1Dg"
     }

@@ -8,12 +8,12 @@ import GameWheel from './Component/GameWheel'
 
 function App() {
 
-  const [games, setGames] =useState([])
+  const [allGames, setAllGames] = useState([])
 
   useEffect(()=>{
     fetch('http://localhost:3000/games')
     .then(res=>res.json())
-    .then(setGames)
+    .then(setAllGames)
   },[])
 
   return (
@@ -21,8 +21,8 @@ function App() {
       <Header />
 
       <Switch>
-          <Route path='/games' component={()=><GameContainer games={games}/>}/>
-          <Route exact path='/' component={() => <GameWheel games={games}/>} />
+          <Route path='/games' component={()=><GameContainer games={allGames}/>}/>
+          <Route exact path='/' component={() =><GameWheel games={allGames}/>} />
       </Switch>
     </div>
   );
