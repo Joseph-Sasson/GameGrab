@@ -3,6 +3,21 @@ import GameItem from "./GameItem"
 
 function GameWheel ({games}){
 
+
+  // function arrayShuffler(start, end){
+  //   if(start.length === 1){
+  //     end.push(start[0])
+  //     return end
+  //   }else{
+  //     const index = Math.floor(Math.random()*start.length)
+  //     end.push(start[index])
+  //     start.splice(index,1)
+  //     return arrayShuffler(start, end)
+  //   }
+  // }
+
+  // console.log(arrayShuffler(games, []))
+
   return(
     <div>
       <Carousel show={5} infiniteLoop={true}>
