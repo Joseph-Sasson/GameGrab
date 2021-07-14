@@ -47,12 +47,15 @@
 }
 
 .left-arrow {
-  left: 24px;
+  left: 'auto';
+  margin-left: -100px;
 }
 
 .right-arrow {
   right: 24px;
+  margin-right: 100px;
 }
+
 
 @media (hover: none) and (pointer: coarse) {
   .left-arrow, .right-arrow {

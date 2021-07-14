@@ -29,7 +29,7 @@ function GameWheel ({games}){
   console.log(arrayShuffler(games, []))
 
   return(
-    <div>
+    <div style={{ maxWidth: 'auto', marginLeft: 200, marginRight: 100, marginTop: 5 }}>
       <Carousel show={5} infiniteLoop={true}>
           {games.map(game => (
             <GameItem key={game.id} game={game}/>
