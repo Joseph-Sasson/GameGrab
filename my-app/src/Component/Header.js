@@ -4,7 +4,7 @@ import {NavLink, Link} from 'react-router-dom'
 function Header (){
   return(
     <ul className = 'head'>
-    <NavLink exact to='/boardgames' className='li'>Board Games</NavLink>
+    <NavLink exact to='/games' className='li'>Board Games</NavLink>
     <NavLink exact to='/cardgames' className='li'>Card Games</NavLink>
     <Link to='/' className='header'>This is Our Game Title</Link>
     <NavLink exact to='/savedgames' className='li'>Saved Games</NavLink>

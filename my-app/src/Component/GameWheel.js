@@ -1,8 +1,8 @@
 import Carousel from "./Carousel"
 import GameItem from "./GameItem"
+import GameFilter from "./GameFilter"
 
 function GameWheel ({games}){
-
 
   // function arrayShuffler(start, end){
   //   if(start.length === 1){
@@ -18,15 +18,15 @@ function GameWheel ({games}){
 
   // console.log(arrayShuffler(games, []))
 
-  function arrayShuffler(start, end){
-    while (start.length > 0){
-      const index = Math.floor(Math.random() * start.length)
-      end.push(start[index])
-      start.splice(index, 1)
-    }
-    return end
-  }
-  console.log(arrayShuffler(games, []))
+  // function arrayShuffler(start, end){
+  //   while (start.length > 0){
+  //     const index = Math.floor(Math.random() * start.length)
+  //     end.push(start[index])
+  //     start.splice(index, 1)
+  //   }
+  //   return end
+  // }
+  // console.log(arrayShuffler(games, []))
 
   return(
     <div style={{ maxWidth: 'auto', marginLeft: 200, marginRight: 100, marginTop: 5 }}>
@@ -35,6 +35,7 @@ function GameWheel ({games}){
             <GameItem key={game.id} game={game}/>
           ))}
       </Carousel>
+      <GameFilter />
     </div>
   )
 }
