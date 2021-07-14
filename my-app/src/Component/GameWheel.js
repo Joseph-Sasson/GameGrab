@@ -18,6 +18,16 @@ function GameWheel ({games}){
 
   // console.log(arrayShuffler(games, []))
 
+  function arrayShuffler(start, end){
+    while (start.length > 0){
+      const index = Math.floor(Math.random() * start.length)
+      end.push(start[index])
+      start.splice(index, 1)
+    }
+    return end
+  }
+  console.log(arrayShuffler(games, []))
+
   return(
     <div>
       <Carousel show={5} infiniteLoop={true}>

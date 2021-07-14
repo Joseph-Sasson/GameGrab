@@ -19,10 +19,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
-        <GameWheel games={games}/>
-      </div>
-      <GameContainer games={games}/>
+
+      <Switch>
+        <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+          <GameWheel games={games}/>
+        </div>
+        <GameContainer games={games}/>
+      </Switch>
     </div>
   );
 }
