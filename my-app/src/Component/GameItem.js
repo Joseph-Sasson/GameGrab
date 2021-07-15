@@ -31,7 +31,6 @@ function GameItem ({game}){
 
     </div>
     </div>
-
   </div>    
   )
 }
