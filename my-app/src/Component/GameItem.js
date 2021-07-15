@@ -26,7 +26,7 @@ function GameItem ({game}){
   <div className='game rows'>
 
     <div>
-    <div className="column">
+    <div className="column" onClick={handleClick}>
     <div className="image">
         <img alt="Don't play the blame game" src={game.image} />
     <div/>
@@ -36,7 +36,7 @@ function GameItem ({game}){
         {game.name}
       </div>
       {displayInfo}
-      <button onClick={handleClick}>
+      <button>
         Learn More!
       </button>
     </div>
