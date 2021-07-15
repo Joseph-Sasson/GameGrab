@@ -33,7 +33,7 @@ function GameWheel ({games}){
             <GameItem key={game.id} game={game}/>
           ))}
       </Carousel>
-      <GameFilter filterGames={filterGames} games={games}/>
+      <GameFilter filterGames={filterGames} games={shuffledGames}/>
       <GameContainer games={filteredGames}/>
     </div>
   )

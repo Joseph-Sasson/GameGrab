@@ -21,7 +21,7 @@ function App() {
 
       <Switch>
           <Route path='/games' component={()=><GameContainer games={allGames}/>}/>
-          <Route exact path='/' component={() =><GameWheel games={allGames}/>} />
+          <Route exact path='/' component={()=><GameWheel games={allGames}/>} />
       </Switch>
     </div>
   );

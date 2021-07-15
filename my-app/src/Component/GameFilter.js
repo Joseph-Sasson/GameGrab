@@ -10,12 +10,11 @@ function GameFilter({filterGames,games}){
     })
 
     const newFilteredGames =()=>{
-        return [...games].filter(game=>
-            console.log(game)
-        // if ((form.age === game.ages || form.age === 'All') && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime){
-        //     return game
-        // }
-    )}
+        return [...games].filter(game=>{
+        if (form.age === game.ages && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime){
+            return game
+        }
+    })}
 
     function handleChange(e){
         const name = e.target.name
