@@ -1,5 +1,5 @@
 import React from "react"
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 
 function GameFilter({filterGames,games}){
     const [form, setForm] = useState({

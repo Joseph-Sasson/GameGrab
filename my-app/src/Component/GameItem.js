@@ -3,7 +3,7 @@ import React from 'react'
 function GameItem ({game}){
 
   return(
-  <div className="row" className="game rows">
+  <div className="row">
 
     <div key={game.id}>
     <div className="column">
