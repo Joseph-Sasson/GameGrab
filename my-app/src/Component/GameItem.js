@@ -2,8 +2,16 @@ import React from 'react'
 
 function GameItem ({game}){
 
+  
+
+  function handleClick(game){
+    console.log(handleClick)
+    return (game.name, game.type, game.runtime, game.ages, game.rules)
+  }
+
+
   return(
-  <div className="row" className="game rows">
+  <div className="row" >
 
     <div key={game.id}>
     <div className="column">
@@ -15,8 +23,8 @@ function GameItem ({game}){
       <div className="title">
         {game.name}
       </div>
-      <button>
-        Learn More!
+      <button onClick={handleClick}>
+      Learn More!
       </button>
     </div>
     </div>
