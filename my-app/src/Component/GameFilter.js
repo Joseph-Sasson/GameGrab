@@ -13,7 +13,7 @@ function GameFilter({filterGames,games}){
         return [...games].filter(game=>{
         if (form.age === game.ages && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime){
             return game
-        }
+        } return game
     })}
 
     function handleChange(e){

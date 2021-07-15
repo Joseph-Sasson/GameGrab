@@ -4,7 +4,7 @@ import GameFilter from "./GameFilter"
 import GameContainer from "./GameContainer"
 import {useEffect, useState} from 'react'
 
-function GameWheel ({games, filterGames}){
+function GameWheel ({games}){
 
   const [filteredGames, setFilteredGames] = useState([])
   const [shuffledGames, setShuffledGames] = useState([])
