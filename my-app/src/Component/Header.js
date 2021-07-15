@@ -18,17 +18,3 @@ function Header (){
 }
 
 export default Header
-
-
-// return(
-//   <ul className = 'header'>
-//     <li><a href="#BoardGames">Board Games</a></li>
-//     <li><a href="#CardGames">Card Games</a></li>
-//     <li><a href="#home" className='title'>This is Our Game Title</a></li>
-//     <li><a href="#Saved">Saved Games</a></li>
-//     <form>
-//       <input type='text' placeholder='Search Game...' />
-//       <button type='submit'>Search</button>
-//     </form>
-//   </ul>
-// )
