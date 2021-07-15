@@ -15,15 +15,23 @@ function App() {
     .then(setAllGames)
   },[])
 
+  const games = allGames.map(game=>{return game})
+
+  const boardGames = allGames.filter(game=>game.type === 'Board Game')
+
+  console.log(boardGames)
+
+  const cardGames = allGames.filter(game=>game.type === 'Card Game')
+
   return (
     <div className="App">
       <Header />
 
       <Switch>
           <Route path='/savedgames' component={()=><GameContainer games={allGames}/>}/>
-          <Route path='/boardgames' component={()=><GameContainer games={allGames}/>}/>
-          <Route path='/cardgames' component={()=><GameContainer games={allGames}/>}/>
-          <Route exact path='/' component={()=><GameWheel games={allGames}/>} />
+          <Route path='/boardgames' component={()=><GameContainer games={boardGames}/>}/>
+          <Route path='/cardgames' component={()=><GameContainer games={cardGames}/>}/>
+          <Route exact path='/' component={()=><GameWheel games={games}/>} />
       </Switch>
     </div>
   );

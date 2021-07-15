@@ -6,11 +6,19 @@ import {useEffect, useState} from 'react'
 
 function GameWheel ({games}){
 
+  const [allGames, setAllGames] = useState([])
   const [filteredGames, setFilteredGames] = useState([])
   const [shuffledGames, setShuffledGames] = useState([])
 
-  function filterGames(games){
-    setFilteredGames(games)
+  useEffect(()=>{
+    fetch('http://localhost:3000/games')
+    .then(res=>res.json())
+    .then(setAllGames)
+  },[])
+
+
+  function filterGames(ourGames){
+    setFilteredGames(ourGames)
   }
 
   function arrayShuffler(start, end){
@@ -23,8 +31,8 @@ function GameWheel ({games}){
   }
 
   useEffect(()=>{
-    setShuffledGames(arrayShuffler(games,[]))
-  },[games])
+    setShuffledGames(arrayShuffler(allGames,[]))
+  },[allGames])
 
   return(
     <div style={{ maxWidth: 'auto', marginLeft: 200, marginRight: 100, marginTop: 5 }}>
