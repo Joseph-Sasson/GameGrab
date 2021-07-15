@@ -19,8 +19,6 @@ function App() {
 
   const boardGames = allGames.filter(game=>game.type === 'Board Game')
 
-  console.log(boardGames)
-
   const cardGames = allGames.filter(game=>game.type === 'Card Game')
 
   return (
