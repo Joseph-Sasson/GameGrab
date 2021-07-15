@@ -24,7 +24,6 @@ function GameFilter({filterGames,games}){
 
     function handleFilter(e){
         e.preventDefault()
-        // console.log(newFilteredGames())
         filterGames(newFilteredGames())
     }
 
