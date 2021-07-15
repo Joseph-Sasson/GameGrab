@@ -10,11 +10,7 @@ function GameFilter({filterGames,games}){
     })
 
     const newFilteredGames =()=>{
-        return [...games].filter(game=>{
-        if (form.age === game.ages && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime){
-            return game
-        }
-    })}
+        return [...games].filter(game=>form.age === game.ages && form.player >= game['min players'] && form.player <= game['max players'] && (form.type === game.type || form.type === 'All') && form.time === game.runtime)}
 
     function handleChange(e){
         const name = e.target.name

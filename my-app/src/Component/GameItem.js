@@ -1,31 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useHistory } from "react-router-dom";
+
 
 function GameItem ({game}){
 
-  const [info, setInfo] = useState(false)
+  let history = useHistory()
 
   const handleClick =()=>{
-    setInfo(!info)
+    history.push("/singlegame", game)
   }
-
-  let displayInfo = info ? 
-  <div>
-      {/* <img src={game.image}/>
-      <p>Name: {game.name}</p> */}
-      <p>Type: {game.type}</p>
-      <p>Age Limit: {game.ages}</p>
-      <p>Min Players: {game["min players"]}</p>
-      <p>Max Players: {game["max players"]}</p>
-      <p>Play Time: {game.runtime}</p>
-      <p>Rules: {game.rules}</p>
-  </div>
-  : false
 
   return(
   <div className='game rows'>
 
     <div>
-    <div className="column" onClick={handleClick}>
+    <div className="column">
     <div className="image">
         <img alt="Don't play the blame game" src={game.image} />
     <div/>
@@ -34,8 +23,7 @@ function GameItem ({game}){
       <div className="title">
         {game.name}
       </div>
-      {displayInfo}
-      <button>
+      <button onClick={handleClick}>
         Learn More!
       </button>
     </div>

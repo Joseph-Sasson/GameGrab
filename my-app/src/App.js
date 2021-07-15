@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom'
 import Header from './Component/Header';
 import GameContainer from './Component/GameContainer'
 import GameWheel from './Component/GameWheel'
+import SingleGame from './Component/SingleGame';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Switch>
           <Route path='/savedgames' component={()=><GameContainer games={allGames}/>}/>
           <Route path='/boardgames' component={()=><GameContainer games={boardGames}/>}/>
+          <Route path='/singlegame' component={SingleGame} />
           <Route path='/cardgames' component={()=><GameContainer games={cardGames}/>}/>
           <Route exact path='/' component={()=><GameWheel games={games}/>} />
       </Switch>
