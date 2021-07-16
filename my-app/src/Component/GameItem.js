@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 
 
-function GameItem ({game}){
+function GameItem ({game, click, remove}){
 
   let history = useHistory()
 
@@ -26,6 +26,8 @@ function GameItem ({game}){
       <button onClick={handleClick}>
         Learn More!
       </button>
+      <button onClick={()=>click(game)}>Save Game</button>
+      <button onClick={()=>remove(game)}>Remove Game</button>
     </div>
     </div>
 

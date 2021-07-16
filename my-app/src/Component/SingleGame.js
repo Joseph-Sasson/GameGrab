@@ -2,7 +2,7 @@ import {useHistory} from 'react-router-dom'
 import ReactPlayer from 'react-player'
 
 
-function SingleGame(){
+function SingleGame({games, click}){
 
   let history = useHistory()
 
@@ -22,6 +22,7 @@ function SingleGame(){
         <p>Max Players: {game["max players"]}</p>
         <p>Play Time: {game.runtime}</p>
         <ReactPlayer url={game.rules} />
+        <button onClick={()=>click(games)}>Save Game</button>
         <button onClick={goBack}>Return To Home</button>
     </div>
 )}

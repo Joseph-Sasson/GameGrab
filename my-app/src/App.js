@@ -9,6 +9,7 @@ import SingleGame from './Component/SingleGame';
 function App() {
 
   const [allGames, setAllGames] = useState([])
+  const [myGames, setMyGames] = useState([])
 
   useEffect(()=>{
     fetch('http://localhost:3000/games')
@@ -22,16 +23,28 @@ function App() {
 
   const cardGames = allGames.filter(game=>game.type === 'Card Game')
 
+  const save = (game)=>{
+    if (!myGames.includes(game)){
+      const newMyGames = [...myGames, game]
+      setMyGames(newMyGames)
+    }
+  }
+
+  const remove = (game)=>{
+   const newMyGames = [...myGames].filter(myGame=>game.id !== myGame.id)
+   setMyGames(newMyGames)
+  }
+
   return (
     <div className="App">
       <Header />
 
       <Switch>
-          <Route path='/savedgames' component={()=><GameContainer games={allGames}/>}/>
-          <Route path='/boardgames' component={()=><GameContainer games={boardGames}/>}/>
-          <Route path='/singlegame' component={SingleGame} />
-          <Route path='/cardgames' component={()=><GameContainer games={cardGames}/>}/>
-          <Route exact path='/' component={()=><GameWheel games={games}/>} />
+          <Route path='/savedgames' component={()=><GameContainer games={myGames} click={save} remove={remove}/>}/>
+          <Route path='/boardgames' component={()=><GameContainer games={boardGames} click={save}/>}/>
+          <Route path='/singlegame' component={()=><SingleGame games={games} click={save} />} />
+          <Route path='/cardgames' component={()=><GameContainer games={cardGames} click={save}/>}/>
+          <Route exact path='/' component={()=><GameWheel games={games} click={save}/>} />
       </Switch>
     </div>
   );
