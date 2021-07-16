@@ -36,7 +36,7 @@ function GameWheel ({games, click, remove}){
 
   return(
     <div style={{ maxWidth: 'auto', marginLeft: 200, marginRight: 100, marginTop: 5 }}>
-      <Carousel show={5} infiniteLoop={true}>
+      <Carousel show={6} infiniteLoop={true}>
           {shuffledGames.map(game => (
             <GameItem key={game.id} game={game} click={click} remove={remove}/>
           ))}

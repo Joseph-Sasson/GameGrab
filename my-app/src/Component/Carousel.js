@@ -68,9 +68,9 @@ const Carousel = (props) => {
           if (currentIndex === 0) {
               setTransitionEnabled(false)
               setCurrentIndex(length)
-          } else if (currentIndex === length + show) {
+          } else if (currentIndex < 0) {
               setTransitionEnabled(false)
-              setCurrentIndex(show)
+              setCurrentIndex(length)
           }
       }
   }
