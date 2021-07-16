@@ -2,7 +2,7 @@ import {useHistory} from 'react-router-dom'
 import ReactPlayer from 'react-player'
 
 
-function SingleGame({games, click}){
+function SingleGame({games, click, remove}){
 
   let history = useHistory()
 

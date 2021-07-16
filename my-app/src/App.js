@@ -41,10 +41,10 @@ function App() {
 
       <Switch>
           <Route path='/savedgames' component={()=><GameContainer games={myGames} click={save} remove={remove}/>}/>
-          <Route path='/boardgames' component={()=><GameContainer games={boardGames} click={save}/>}/>
-          <Route path='/singlegame' component={()=><SingleGame games={games} click={save} />} />
-          <Route path='/cardgames' component={()=><GameContainer games={cardGames} click={save}/>}/>
-          <Route exact path='/' component={()=><GameWheel games={games} click={save}/>} />
+          <Route path='/boardgames' component={()=><GameContainer games={boardGames} click={save} remove={remove}/>}/>
+          <Route path='/singlegame' component={()=><SingleGame games={games} click={save} remove={remove}/>} />
+          <Route path='/cardgames' component={()=><GameContainer games={cardGames} click={save} remove={remove}/>}/>
+          <Route exact path='/' component={()=><GameWheel games={games} click={save} remove={remove}/>} />
       </Switch>
     </div>
   );

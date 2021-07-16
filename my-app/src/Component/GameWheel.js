@@ -4,7 +4,7 @@ import GameFilter from "./GameFilter"
 import GameContainer from "./GameContainer"
 import {useEffect, useState} from 'react'
 
-function GameWheel ({games, click}){
+function GameWheel ({games, click, remove}){
 
   const [allGames, setAllGames] = useState([])
   const [filteredGames, setFilteredGames] = useState([])
@@ -38,11 +38,11 @@ function GameWheel ({games, click}){
     <div style={{ maxWidth: 'auto', marginLeft: 200, marginRight: 100, marginTop: 5 }}>
       <Carousel show={5} infiniteLoop={true}>
           {shuffledGames.map(game => (
-            <GameItem key={game.id} game={game} click={click}/>
+            <GameItem key={game.id} game={game} click={click} remove={remove}/>
           ))}
       </Carousel>
-      <GameFilter filterGames={filterGames} games={shuffledGames} click={click}/>
-      <GameContainer games={filteredGames} click={click}/>
+      <GameFilter filterGames={filterGames} games={shuffledGames} click={click} remove={remove}/>
+      <GameContainer games={filteredGames} click={click} remove={remove}/>
     </div>
   )
 }

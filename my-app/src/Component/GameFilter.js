@@ -1,7 +1,7 @@
 import React from "react"
 import {useState} from 'react'
 
-function GameFilter({filterGames,games, click}){
+function GameFilter({filterGames, games, click, remove}){
     const [form, setForm] = useState({
         age: 'All',
         player: '1',
