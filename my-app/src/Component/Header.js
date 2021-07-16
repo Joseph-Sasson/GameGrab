@@ -6,7 +6,7 @@ function Header (){
     <ul className = 'head'>
       <NavLink exact to='/boardgames' className='li'>Board Games</NavLink>
       <NavLink exact to='/cardgames' className='li'>Card Games</NavLink>
-      <Link to='/' className='header'>Game Title</Link>
+      <Link to='/' className='header'>Games</Link>
       <NavLink exact to='/savedgames' className='li'>Saved Games</NavLink>
     <form>
         <input type='text' placeholder='Search Game...' />

@@ -96,7 +96,7 @@ const Carousel = (props) => {
       <div className="carousel-container">
           <div className="carousel-wrapper">
               {
-                  (isRepeating || currentIndex > 0) &&
+                  (isRepeating || currentIndex >= 0) &&
                   <button onClick={prev} className="left-arrow">
                       &lt;
                   </button>
@@ -126,7 +126,7 @@ const Carousel = (props) => {
                   </div>
               </div>
               {
-                  (isRepeating || currentIndex < (length - show)) &&
+                  (isRepeating || currentIndex <= (length - show)) &&
                   <button onClick={next} className="right-arrow">
                       &gt;
                   </button>
